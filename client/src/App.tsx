@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { themeSettings } from "./theme";
 import { Box, CssBaseline } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "@/scenes/Navbar";
+import Navbar from "@/scenes/navbar/Navbar";
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings), []);
