@@ -17,6 +17,21 @@ Financit is a full-stack finance dashboard application built using the **MERN** 
 
 ---
 
+## Folder Structure
+
+- **client**: Contains the frontend React application.
+- **server**: Contains the backend Express.js server.
+- **shared**: Shared utilities and components.
+- **public**: Static assets.
+- **.env**: Environment variables.
+
+- **client/src/scenes**: contains major pages, sections (or "views"), broader feature rather than just a UI component of the app.
+- **client/src/components**: contains UI components that can be reused across the application pages.
+- **client/src/assets**: contains static assets like images and icons.
+- **client/src/state**: contains reusable data/state accross the application.
+
+---
+
 ## 🛠️ Tech Stack
 
 ### **Frontend:**
